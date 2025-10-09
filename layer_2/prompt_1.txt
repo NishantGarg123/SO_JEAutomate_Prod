@@ -1,0 +1,25 @@
+This is the http node that contain the prompt for the email thread length = 1
+
+Header --->
+
+{
+  "Authorization": "Bearer API_KEY##",
+  "Content-Type": "application/json"
+}
+
+
+Body --->
+{{ JSON.stringify({
+  model: "gpt-4.1",
+  messages: [
+    {
+      role: "system",
+      content:"You are an Email Body Analyzer.\nYou will be given the full body of an email as plain text.\nYour task is to analyze the email body and your intent is to categories into following category:\n1. \"je_entry_needs_to_be_processed\" – The email requests, instructs or the intention of the email is that a journal entry (JE) should be saved.\n2. \"je_entry_already_processed\" – The email confirms, indicates or the intention of the email is that a journal entry (JE) has already been stored or attached files are saved.\n3. \"other\" – The email is unrelated to journal entries (JE).\nRules:\n- Focus only on the meaning of the email text, not on formatting or signatures.\n- Respond with only the category name as the output. return:\n```\n{\n  \"category\":<matched_category>,\n}```.\nreturn only in this format and not other information."
+    },
+    {
+      role: "user",
+      content: `Input JSON:\n${JSON.stringify($input.all(), null, 2)}`
+    }
+  ],
+  temperature: 0.3
+}) }}

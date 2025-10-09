@@ -1,0 +1,3 @@
+this is the if node used after the code node of the sender list that is the valid user?
+exp - {{ $json.exists }}
+boolean - true
