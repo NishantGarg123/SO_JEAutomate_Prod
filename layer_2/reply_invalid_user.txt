@@ -1,0 +1,10 @@
+message - ById
+{{ $('Email_data').all()[0].json.id }}
+
+method - Reply.
+Message content -
+Dear User,
+
+We would like to inform you that you are not authorized to perform this task, as your account is not included in the list of approved users.
+Thank you for your understanding.
+
