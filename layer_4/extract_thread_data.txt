@@ -1,0 +1,4 @@
+This is the outlook node used to get the thread data.
+
+ReturnAll - mode on
+filter_query = conversationId eq '{{ $('Email_data').all()[0].json.conversationId }}'

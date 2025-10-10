@@ -1,0 +1,4 @@
+This is the code node used to reverse the thread data
+
+// ------------- reverse the input email data to process with the latest.
+return $input.all().reverse();
