@@ -1,0 +1,2 @@
+// ------------- reverse the input email data to process with the latest.
+return $input.all().reverse();

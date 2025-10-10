@@ -1,0 +1,5 @@
+// if node.
+
+condition - {{ $json.length }}
+number - is equal to
+value - 1

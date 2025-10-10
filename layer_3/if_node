@@ -1,0 +1,5 @@
+this node is used to decide whether the month period matched.
+
+exp - {{ $json.message.content.toLowerCase() }}
+string -contains
+value - success

@@ -1,0 +1,21 @@
+Email Subject: {{ $json.subject }}
+Email Body: {{ $json.body }}
+
+You are a validation assistant.
+
+Your task is:
+
+---
+
+**Check if the **current month** or **previous month** (case-insensitive) appears in either the Email Subject or Body.
+
+- Valid month references:
+  - Current month: "{{ $json.month }}" or "{{ $json.month.substring(0,3) }}"
+  - Previous month: "{{ $json.prev_month }}" or "{{ $json.prev_month.substring(0,3) }}"
+- The year "{{ $json.year }}" may or may not be present.
+
+---
+
+*** Rules:
+- If the Subject or Body contains any valid month reference (as defined above), then output: {"success"}
+- If the Subject and Body both do not contain any valid month reference, then output: {"null"}

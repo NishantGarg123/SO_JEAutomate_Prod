@@ -1,0 +1,5 @@
+If node used for the thread length >1
+
+exp - {{ $json.choices[0].message.content }}
+string - contains
+value - je_entry_needs_to_be_processed
