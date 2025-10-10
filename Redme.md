@@ -7,3 +7,7 @@ In this layer we have the outlook thread length verifier( that will find out the
 This layer has the two functionality currently
 1. Process the email body based on the length of the email thread.
 2. Check is the valid user ( Exist in the valid user list?)
+
+# Layer-3
+This layer is used to identify that whether the email body or the email title of the thread contain the month (current or previous).
+

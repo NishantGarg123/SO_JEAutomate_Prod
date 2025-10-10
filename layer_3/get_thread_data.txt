@@ -1,0 +1,3 @@
+Outlook node -
+
+conversationId eq '{{ $node["Email_data"].json.conversationId }}'
