@@ -1,0 +1,5 @@
+----------- msg -----------
+We did not receive Journal Entries with your email. Please ensure that the email containing the Journal Entries either in the email body or in the attachment, so we can proceed with storing the data.
+
+------- message expression ------------------
+{{ $('Extract: Thread data').all()[0].json.id }}

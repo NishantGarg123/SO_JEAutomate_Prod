@@ -1,0 +1,3 @@
+----------- this is the if node used to check we get the sheet name ? ---------
+Exp - {{ $json.note }}
+value - does not exist

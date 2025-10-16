@@ -1,0 +1,1 @@
+---------- This is the loop node used to iterate over the available attachments to process the all attachments. -----------------

@@ -1,0 +1,5 @@
+---------- This is the outlook node ----------------------
+
+Message EXP - {{ $json.id }}
+
+Output - Raw

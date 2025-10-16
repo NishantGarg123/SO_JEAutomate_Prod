@@ -1,0 +1,5 @@
+----------- this is the if node check is the je find in the body? ------------------
+
+exp - {{ $json.choices[0].message.content }}
+str - does not contain
+value - NO_JOURNAL_ENTRY_IN_BODY
