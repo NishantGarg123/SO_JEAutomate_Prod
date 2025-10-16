@@ -1,0 +1,4 @@
+----------- This is the if node used to check we get the attachment?
+
+Condition - {{ $json.key }}
+value - does not exist
