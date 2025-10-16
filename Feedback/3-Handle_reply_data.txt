@@ -1,0 +1,6 @@
+Issue - When we are using the prompt to on the 'email body' to analyze the date , and to analyze the JE in the body.
+
+What is the issue - In this we are getting thread data in the reply that causing the issue plese see that what we can do 
+If their is something that we can using the From, To, Cc, .. etc.
+
+Please see these what we can do to solve this issue.
